@@ -1,0 +1,14 @@
+@import '../../assets/abstracts/colors';
+.baby-background{
+    background-image: url("../../assets/images/baby.jpg");
+    background-repeat: no-repeat;
+    // width: 100%;
+    height: 800px;
+    background-size: cover;
+    .protect-font{
+        font-size: 60px;
+    }
+    .green-color{
+        color:$LightGreen;
+    }
+}

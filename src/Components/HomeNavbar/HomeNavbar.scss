@@ -1,0 +1,18 @@
+@import '../../assets//abstracts/_colors.scss';
+.home-nav{
+    background-color: $Thickblue;
+    height:90px;
+    .home-width{
+        width: 500px;
+    }
+    .GetQuoteBackground{
+        background-color: $LightGreen;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 30px;
+        padding-left: 30px;
+        border-radius: 30px;
+        font-weight: 600;
+
+    }
+}
