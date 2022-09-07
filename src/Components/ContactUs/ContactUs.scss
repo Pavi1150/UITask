@@ -1,0 +1,23 @@
+@import '../../assets/abstracts/colors';
+.contactUs{
+    height: 200px;
+    background-color: white;
+
+.takecareText{
+    color: $LightGreen;
+}
+.Klaritas-text{
+    color:$Grey;
+    word-break: normal;
+}
+.ContactBackground{
+    background-color: $LightGreen;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 28px;
+    padding-left: 28px;
+    border-radius: 30px;
+    font-weight: 600;
+
+}
+}
