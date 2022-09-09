@@ -6,9 +6,14 @@ import ProtectInsurance from "./Components/ProtectInsurance/ProtectInsurance";
 import InsuranceProduct from "./Components/InsuranceProduct/InsuranceProduct";
 import WhoWeAre from "./Components/WhoWeAre/WhoWeAre";
 import ContactUs from "./Components/ContactUs/ContactUs";
+import KnowFact from "./Components/KnowFact/KnowFact";
+import Slider from "./Components/Slider/Slider";
+import LatestNews from "./Components/LatestNews/LatestNews";
+import Collections from "./Components/Collections";
+import Footer from "./Components/Footer/Footer";
 function App() {
   return (
-    <div>
+    <div className="overflow-hidden">
       <WelcomeNavbar />
       <EmailNavbar />
       <HomeNavbar />
@@ -16,6 +21,11 @@ function App() {
       <InsuranceProduct />
       <WhoWeAre />
       <ContactUs />
+      <KnowFact />
+      <Slider />
+      <LatestNews />
+      <Collections />
+      <Footer />
     </div>
   );
 }

@@ -17,13 +17,11 @@
         border: 2px solid white;
         height: 300px;
         width: 300px;
-        // margin: auto;
         margin-left: 95px;
     }
     .need-text{
         font-weight: 600;
-        font-size: 25px;
-        
+        font-size: 25px;        
     }
     .text-color{
         color: $Grey;
@@ -33,6 +31,6 @@
         padding-right: 50px;
     }
     .readmore{
-        color: $LightGreen;
+        color: $lightGreen;
     }
 }

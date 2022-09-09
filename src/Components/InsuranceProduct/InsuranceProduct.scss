@@ -11,13 +11,13 @@
     font-size: 17px;
 }
 .product-background{
-    background-color: $LightGreen;
+    background-color: $lightGreen;
     color: white;
     padding-right: 10px;
     padding-left: 10px;
 }
 .bestServiceColor{
-    color: $LightGreen;
+    color: $lightGreen;
     font-size: 25px;
     font-weight: 600;
 }
@@ -28,6 +28,11 @@
 }
 .InsuranceTextsColor{
     color: #8c8c8c;
+    cursor: pointer;
+}
+.InsuranceTextsColor:hover{
+    color: black;
+    font-weight: bold;
 }
 .balcony-image{
     background-image: url('../../assets/images/balcony.jpg');
@@ -43,8 +48,6 @@
 .family-image{
     width: 260px;
     height: 300px;
- 
-
     }
     .border-thickness{
         border-width: 3px;

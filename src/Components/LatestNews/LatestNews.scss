@@ -1,0 +1,56 @@
+@import '../../assets/abstracts/colors';
+.latestNews{
+    height: 700px;
+    background-color: #f6f6f6;
+    .font_30{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .consect-text{
+        color: $Grey;
+        display: flex;
+        justify-content: center;
+        font-size: 17px;
+    }
+    .product-background{
+        background-color: $lightGreen;
+        color: white;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .sep-text{
+        font-size: 16px;
+        font-weight: 600;
+        background-color: $lightGreen;
+        color: white;
+        width: 49px;
+        height: 50px;
+        padding: 10px;
+    }
+    .sorem-text{
+        font-size: 22px;
+        font-weight: 600;
+        color: #0f253a;
+        width: 290px;       
+    }
+    .lorem-text{
+        color: $Grey;
+    }
+    .total{
+        width: 400px;
+    }
+    .latestImages{
+        height: 300px;
+        width: 370px;
+    }    
+}
+.latestSwiper{
+    width: 1195px !important;
+.swipe{
+    width: 980px !important;
+    margin: auto;
+}
+.swiper-slide{
+    width: 400px !important;
+}
+}

@@ -28,20 +28,18 @@ function InsuranceProduct() {
           </p>
 
           <p className="fw-bold">Life Insurance</p>
-          <div className="InsuranceTextsColor">
-            <p>Fire Insurance</p>
-            <p>Transport Insurance</p>
-            <p>Health Insurance</p>
-            <p>Buisness Insurance</p>
-            <p>House Insurance</p>
-          </div>
+
+          <p className="InsuranceTextsColor">Fire Insurance</p>
+          <p className="InsuranceTextsColor">Transport Insurance</p>
+          <p className="InsuranceTextsColor">Health Insurance</p>
+          <p className="InsuranceTextsColor">Buisness Insurance</p>
+          <p className="InsuranceTextsColor">House Insurance</p>
         </div>
 
         <div className="balcony-image">
           <span className="border-move"></span>
           <img src={hand} className="family-image" alt="family" />
         </div>
-        {/* <div className="border-end border-move"></div> */}
         <div>
           <div>
             <TbMinusVertical color="#bababa" size="40px" />

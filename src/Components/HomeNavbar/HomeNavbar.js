@@ -6,13 +6,13 @@ import { IoIosSend } from "react-icons/io";
 function HomeNavbar() {
   return (
     <div className="home-nav d-flex justify-content-around align-items-center">
-      <div className="d-flex justify-content-around text-white home-width">
-        <p>Home</p>
-        <p>About Us</p>
-        <p>Insurance Product</p>
-        <p>News</p>
-        <p>Pages</p>
-        <p>Contact Us</p>
+      <div className="d-flex justify-content-around home-width">
+        <p className="navsComponents">Home</p>
+        <p className="navsComponents">About Us</p>
+        <p className="navsComponents">Insurance Product</p>
+        <p className="navsComponents">News</p>
+        <p className="navsComponents">Pages</p>
+        <p className="navsComponents">Contact Us</p>
         <BsSearch size="30" className="pt-0" />
       </div>
       <div>

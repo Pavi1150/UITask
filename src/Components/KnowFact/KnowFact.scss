@@ -1,0 +1,41 @@
+@import '../../assets//abstracts/colors';
+.knowFactPage{
+    background-color: $lightGreen;
+    height: 350px;
+    width: 600px;
+    padding: 60px;
+}
+.learn-box{
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    font-weight: 600;
+    width: 200px;
+    border: 1px solid white;
+}
+.enjoy-image{
+    background-image: linear-gradient(rgba(1, 2, 35, 0.7), rgba(12, 8, 66, 0.7)),url('../../assets/images/enjoy.jpg');
+    width:915px;
+    height:350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.line {
+    width: 390px;
+    height: 2px;
+    background-color: white;
+    position:relative;
+    bottom: 10%;
+    right: 40%;
+  }
+  .line::after {
+    content: "";
+    position: absolute;
+    top: -9px;
+    right: 0;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: white;
+  }

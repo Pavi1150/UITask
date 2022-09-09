@@ -1,18 +1,15 @@
 @import '../../assets/abstracts/colors';
 .baby-background{
-    // filter: brightness(50%);
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../../assets/images/baby.jpg");
     background-repeat: no-repeat;
-    // width: 100%;
     height: 800px;
     background-size: cover;
     .protect-font{
-        font-size: 60px;
-        
+        font-size: 60px;    
    
     }
     .green-color{
-        color:$LightGreen;
+        color:$lightGreen;
     }
     .learn-box{
         background-color: transparent;
@@ -22,5 +19,20 @@
         font-weight: 600;
         width: 200px;
         border: 1px solid white;
+    }   
+}
+    .protectSwiper{
+        .swiper-pagination-bullets
+        {
+              top:72% !important;
+        }
+    .swiper-pagination-bullet
+        {
+        border-radius: 0px !important;
+        }
+    .swiper-pagination-bullet-active
+    {
+        background-color: white !important;
+        font-size: 30px !important;
     }
 }

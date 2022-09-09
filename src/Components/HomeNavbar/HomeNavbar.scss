@@ -4,9 +4,18 @@
     height:90px;
     .home-width{
         width: 500px;
+        cursor: pointer;
+        color: white;
+        .navsComponents{
+            color: white;            
+        }
+        .navsComponents:hover{
+            color: $lightGreen;
+        }
     }
+    
     .GetQuoteBackground{
-        background-color: $LightGreen;
+        background-color: $lightGreen;
         padding-top: 10px;
         padding-bottom: 10px;
         padding-right: 30px;

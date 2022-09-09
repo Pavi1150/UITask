@@ -1,0 +1,60 @@
+@import '../../assets/abstracts/colors';
+.Slider{
+    height: 400px;
+    .center-Content{
+        width: 552px;        
+    }
+.imgOne{
+    height: 100px;
+    filter: brightness(50%);
+    width: 100px;
+    border-radius: 50%;   
+}
+.imgTwo{
+    height: 100px;    
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    right: 44%;
+}
+.imgThree{
+    height: 100px;
+    filter: brightness(50%);
+    width: 100px;
+    border-radius: 50%;
+}
+.borderRound{
+    border-radius: 50%;
+}
+.name{
+    font-size: 18px;
+    font-weight: 600;
+}
+.founderFont{
+    font-size: 14px;
+    font-weight: 600;
+}
+.lorem-color{
+    color: $Grey;
+}
+
+}
+.swiperr{
+    width: 700px !important;
+    .swiper-pagination{
+        top:72%;
+    }
+    .swiper-pagination-bullet-active {
+        background-color: black !important;
+    }
+    .swiper-button-next:after{
+         color: black !important;
+         font-weight: bold;
+         font-size: 60px;
+    }
+    .swiper-button-prev:after{
+       color: black !important;
+        font-weight: bold;
+        font-size: 60px;
+    }
+}

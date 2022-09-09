@@ -1,0 +1,47 @@
+@import "../../assets/abstracts/colors";
+.footer{
+    height: 500px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.852), rgba(0, 0, 0, 0.852)),url('../../assets/images/balcony.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .footer-width{
+        width: 1000px;
+    }
+    .greyColor{
+        color:#cacaca;
+    }
+    .inputBorder{
+        border-radius: 5px;
+        height: 31px;
+    }
+    .send{
+        background-color: $lightGreen;
+        height: 28px;
+        width: 28px;
+        margin-bottom: 6px;
+    }
+    .klaritasText{
+        width: 310px;        
+    }
+    .recentPost{
+        width: 316px;      
+    }
+    .gridImages{
+        height: 70px;
+        width: 50px;
+    }
+    .subscribeText{
+        font-size: 15px;
+        font-weight: 600;
+    }
+   
+}
+.rightsText{
+    background-color: $lightGreen;
+    font-size: 15px;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
